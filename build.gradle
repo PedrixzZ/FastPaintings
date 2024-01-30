@@ -51,12 +51,6 @@ subprojects {
             if (modLoader == "fabric") {
                 dependencies {
                     required.project "fabric-api"
-                    required.project "moonlight"
-                }
-            } else {
-                dependencies {
-                    required.project "moonlight"
-                }
             }
         }
     }
